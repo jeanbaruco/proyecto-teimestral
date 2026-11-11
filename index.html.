@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La tecnología y su impacto en la sociedad</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5ff;
+  color: #202b45;
+}
+
+header {
+  background: linear-gradient(120deg,#172554,#2563eb,#7c3aed);
+  color: white;
+  text-align: center;
+  padding: 45px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+nav {
+  background: #dbeafe;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  margin: 6px;
+  color: #172554;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  max-width: 950px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px #0001;
+}
+
+h2 {
+  color: #2563eb;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #eff6ff;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+footer {
+  background: #172554;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>La tecnología y su impacto en la sociedad</h1>
+<p>Proyecto Trimestral — Tecnología de la Información</p>
+<p>Instituto América | 12° Humanidades</p>
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#educacion">Educación</a>
+<a href="#comunicacion">Comunicación</a>
+<a href="#sociedad">Sociedad</a>
+</nav>
+
+<main>
+
+<section id="inicio">
+<h2>1. ¿Qué es la tecnología?</h2>
+<p>
+La tecnología es el conjunto de conocimientos, herramientas y técnicas
+que permiten crear soluciones para facilitar las actividades humanas.
+Actualmente está presente en casi todos los aspectos de nuestra vida,
+desde la educación hasta el trabajo y el entretenimiento.
+</p>
+
+<div class="cards">
+<div class="card">
+<h3>📚 Educación</h3>
+<p>Facilita el aprendizaje y el acceso a información.</p>
+</div>
+
+<div class="card">
+<h3>🌐 Comunicación</h3>
+<p>Permite conectar personas de diferentes lugares.</p>
+</div>
+
+<div class="card">
+<h3>⚙️ Innovación</h3>
+<p>Ayuda a desarrollar nuevas herramientas y soluciones.</p>
+</div>
+</div>
+</section>
+
+<section id="educacion">
+<h2>2. La tecnología en la educación</h2>
+<p>
+La tecnología ha transformado la educación mediante computadoras,
+tabletas, plataformas virtuales y bibliotecas digitales.
+Estas herramientas permiten investigar, realizar actividades
+y recibir clases desde diferentes lugares.
+</p>
+
+<h3>Ventajas principales</h3>
+<ul>
+<li>Acceso rápido a información educativa.</li>
+<li>Clases y cursos virtuales.</li>
+<li>Mayor facilidad para investigar.</li>
+<li>Comunicación entre estudiantes y profesores.</li>
+<li>Desarrollo de habilidades digitales.</li>
+</ul>
+
+<p>
+Es importante verificar la información encontrada en internet
+y utilizar las herramientas digitales responsablemente.
+</p>
+</section>
+
+<section id="comunicacion">
+<h2>3. La tecnología y la comunicación</h2>
+<p>
+Los teléfonos inteligentes, las redes sociales, el correo electrónico
+y las videollamadas han cambiado la manera en que nos comunicamos.
+Ahora podemos compartir información y conversar con personas
+que se encuentran lejos.
+</p>
+
+<h3>Beneficios</h3>
+<ul>
+<li>Comunicación inmediata.</li>
+<li>Facilidad para compartir fotografías y documentos.</li>
+<li>Conexión con familiares y amigos.</li>
+<li>Acceso a noticias e información.</li>
+</ul>
+
+<h3>Cuidados necesarios</h3>
+<p>
+Debemos proteger nuestros datos personales, utilizar contraseñas
+seguras, evitar enlaces sospechosos y respetar a los demás
+en las plataformas digitales.
+</p>
+</section>
+
+<section id="sociedad">
+<h2>4. La tecnología en la sociedad</h2>
+<p>
+La tecnología contribuye al desarrollo de la sociedad porque
+mejora procesos en la medicina, el transporte, la industria
+y otros sectores.
+</p>
+
+<div class="cards">
+<div class="card">
+<h3>🌱 Oportunidades</h3>
+<p>Innovación, nuevos empleos y soluciones para problemas cotidianos.</p>
+</div>
+
+<div class="card">
+<h3>⚠️ Desafíos</h3>
+<p>Desinformación, dependencia tecnológica y riesgos de privacidad.</p>
+</div>
+
+<div class="card">
+<h3>🚀 Futuro</h3>
+<p>Inteligencia artificial, robótica y nuevas formas de trabajar.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2>Conclusión</h2>
+<p>
+La tecnología es una herramienta fundamental para el desarrollo
+de la sociedad. Nos permite aprender, comunicarnos y resolver
+problemas. Sin embargo, debemos utilizarla con responsabilidad,
+proteger nuestra información y aprovechar sus beneficios
+de manera positiva.
+</p>
+</section>
+
+</main>
+
+<footer>
+<p><strong>Proyecto Trimestral — Desarrollo de Sitio Web</strong></p>
+<p>Estudiante: Jean Baruco</p>
+<p>Instituto América | 12° Humanidades</p>
+</footer>
+
+</body>
+</html>
