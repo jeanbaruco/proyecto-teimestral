@@ -2,218 +2,261 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>La tecnología y su impacto en la sociedad</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto escolar sobre la tecnología y su impacto en la sociedad.">
+    <title>La Tecnología y la Sociedad</title>
 
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f1f5ff;
-  color: #202b45;
-}
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-header {
-  background: linear-gradient(120deg,#172554,#2563eb,#7c3aed);
-  color: white;
-  text-align: center;
-  padding: 45px 20px;
-}
+        html {
+            scroll-behavior: smooth;
+        }
 
-header h1 {
-  font-size: 32px;
-}
+        body {
+            font-family: Arial, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            line-height: 1.7;
+        }
 
-nav {
-  background: #dbeafe;
-  padding: 15px;
-  text-align: center;
-}
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 25px 15px;
+            text-align: center;
+        }
 
-nav a {
-  display: inline-block;
-  margin: 6px;
-  color: #172554;
-  text-decoration: none;
-  font-weight: bold;
-}
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
 
-main {
-  max-width: 950px;
-  margin: 30px auto;
-  padding: 20px;
-}
+        header p {
+            color: #cbd5e1;
+        }
 
-section {
-  background: white;
-  padding: 25px;
-  margin: 20px 0;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px #0001;
-}
+        nav {
+            background: #1d4ed8;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 12px;
+            gap: 20px;
+        }
 
-h2 {
-  color: #2563eb;
-}
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
-  gap: 15px;
-}
+        nav a:hover {
+            color: #bfdbfe;
+        }
 
-.card {
-  background: #eff6ff;
-  padding: 18px;
-  border-radius: 12px;
-}
+        .hero {
+            background: linear-gradient(135deg, #1e40af, #0f172a);
+            color: white;
+            text-align: center;
+            padding: 75px 20px;
+        }
 
-footer {
-  background: #172554;
-  color: white;
-  text-align: center;
-  padding: 25px;
-}
-</style>
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 18px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 35px 20px;
+        }
+
+        section {
+            background: white;
+            padding: 28px;
+            margin-bottom: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+        }
+
+        section h2 {
+            color: #1d4ed8;
+            margin-bottom: 15px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #eff6ff;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #2563eb;
+        }
+
+        .card h3 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            .hero h2 {
+                font-size: 27px;
+            }
+
+            nav {
+                gap: 12px;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
 <header>
-<h1>La tecnología y su impacto en la sociedad</h1>
-<p>Proyecto Trimestral — Tecnología de la Información</p>
-<p>Instituto América | 12° Humanidades</p>
+    <h1>La Tecnología y su Impacto en la Sociedad</h1>
+    <p>Proyecto Trimestral - Desarrollo de Sitio Web</p>
 </header>
 
 <nav>
-<a href="#inicio">Inicio</a>
-<a href="#educacion">Educación</a>
-<a href="#comunicacion">Comunicación</a>
-<a href="#sociedad">Sociedad</a>
+    <a href="#inicio">Inicio</a>
+    <a href="#educacion">Educación</a>
+    <a href="#comunicacion">Comunicación</a>
+    <a href="#sociedad">Sociedad</a>
+    <a href="#conclusion">Conclusión</a>
 </nav>
 
-<main>
-
-<section id="inicio">
-<h2>1. ¿Qué es la tecnología?</h2>
-<p>
-La tecnología es el conjunto de conocimientos, herramientas y técnicas
-que permiten crear soluciones para facilitar las actividades humanas.
-Actualmente está presente en casi todos los aspectos de nuestra vida,
-desde la educación hasta el trabajo y el entretenimiento.
-</p>
-
-<div class="cards">
-<div class="card">
-<h3>📚 Educación</h3>
-<p>Facilita el aprendizaje y el acceso a información.</p>
+<div class="hero" id="inicio">
+    <h2>La tecnología transforma nuestro mundo</h2>
+    <p>
+        La tecnología forma parte de nuestra vida diaria.
+        Nos permite aprender, comunicarnos, trabajar y
+        encontrar nuevas soluciones para diferentes problemas.
+    </p>
 </div>
 
-<div class="card">
-<h3>🌐 Comunicación</h3>
-<p>Permite conectar personas de diferentes lugares.</p>
-</div>
+<main class="container">
 
-<div class="card">
-<h3>⚙️ Innovación</h3>
-<p>Ayuda a desarrollar nuevas herramientas y soluciones.</p>
-</div>
-</div>
-</section>
+    <section>
+        <h2>¿Qué es la tecnología?</h2>
+        <p>
+            La tecnología es el conjunto de conocimientos,
+            herramientas, técnicas y recursos creados por
+            el ser humano para facilitar las actividades
+            cotidianas y resolver necesidades.
+        </p>
+        <p>
+            Actualmente está presente en los teléfonos,
+            computadoras, medios de transporte, hospitales
+            y muchos otros espacios.
+        </p>
+    </section>
 
-<section id="educacion">
-<h2>2. La tecnología en la educación</h2>
-<p>
-La tecnología ha transformado la educación mediante computadoras,
-tabletas, plataformas virtuales y bibliotecas digitales.
-Estas herramientas permiten investigar, realizar actividades
-y recibir clases desde diferentes lugares.
-</p>
+    <section id="educacion">
+        <h2>La tecnología en la educación</h2>
+        <p>
+            La tecnología ha cambiado la manera de estudiar.
+            Gracias a Internet, los estudiantes pueden
+            investigar, acceder a cursos virtuales y utilizar
+            herramientas digitales para mejorar su aprendizaje.
+        </p>
+        <div class="cards">
+            <div class="card">
+                <h3>Aprendizaje virtual</h3>
+                <p>Permite estudiar desde diferentes lugares y acceder a clases en línea.</p>
+            </div>
+            <div class="card">
+                <h3>Investigación</h3>
+                <p>Facilita encontrar información y desarrollar nuevos conocimientos.</p>
+            </div>
+        </div>
+    </section>
 
-<h3>Ventajas principales</h3>
-<ul>
-<li>Acceso rápido a información educativa.</li>
-<li>Clases y cursos virtuales.</li>
-<li>Mayor facilidad para investigar.</li>
-<li>Comunicación entre estudiantes y profesores.</li>
-<li>Desarrollo de habilidades digitales.</li>
-</ul>
+    <section id="comunicacion">
+        <h2>La tecnología en la comunicación</h2>
+        <p>
+            Las redes sociales, los mensajes instantáneos
+            y las videollamadas permiten comunicarnos con
+            personas de diferentes partes del mundo.
+            Esto hace que la comunicación sea más rápida
+            y accesible.
+        </p>
+    </section>
 
-<p>
-Es importante verificar la información encontrada en internet
-y utilizar las herramientas digitales responsablemente.
-</p>
-</section>
+    <section id="sociedad">
+        <h2>Ventajas y desventajas</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Ventajas</h3>
+                <p>Facilita el trabajo, mejora la comunicación,
+                permite acceder a información y contribuye
+                al desarrollo de la medicina.</p>
+            </div>
+            <div class="card">
+                <h3>Desventajas</h3>
+                <p>Puede generar dependencia, distracciones,
+                riesgos de privacidad y difusión de información falsa.</p>
+            </div>
+        </div>
+    </section>
 
-<section id="comunicacion">
-<h2>3. La tecnología y la comunicación</h2>
-<p>
-Los teléfonos inteligentes, las redes sociales, el correo electrónico
-y las videollamadas han cambiado la manera en que nos comunicamos.
-Ahora podemos compartir información y conversar con personas
-que se encuentran lejos.
-</p>
+    <section id="conclusion">
+        <h2>Conclusión</h2>
+        <p>
+            La tecnología es una herramienta fundamental
+            para el desarrollo de la sociedad. Su uso
+            responsable nos permite aprovechar sus beneficios
+            y reducir sus riesgos. Por eso, es importante
+            aprender a utilizarla de manera adecuada.
+        </p>
+    </section>
 
-<h3>Beneficios</h3>
-<ul>
-<li>Comunicación inmediata.</li>
-<li>Facilidad para compartir fotografías y documentos.</li>
-<li>Conexión con familiares y amigos.</li>
-<li>Acceso a noticias e información.</li>
-</ul>
-
-<h3>Cuidados necesarios</h3>
-<p>
-Debemos proteger nuestros datos personales, utilizar contraseñas
-seguras, evitar enlaces sospechosos y respetar a los demás
-en las plataformas digitales.
-</p>
-</section>
-
-<section id="sociedad">
-<h2>4. La tecnología en la sociedad</h2>
-<p>
-La tecnología contribuye al desarrollo de la sociedad porque
-mejora procesos en la medicina, el transporte, la industria
-y otros sectores.
-</p>
-
-<div class="cards">
-<div class="card">
-<h3>🌱 Oportunidades</h3>
-<p>Innovación, nuevos empleos y soluciones para problemas cotidianos.</p>
-</div>
-
-<div class="card">
-<h3>⚠️ Desafíos</h3>
-<p>Desinformación, dependencia tecnológica y riesgos de privacidad.</p>
-</div>
-
-<div class="card">
-<h3>🚀 Futuro</h3>
-<p>Inteligencia artificial, robótica y nuevas formas de trabajar.</p>
-</div>
-</div>
-</section>
-
-<section>
-<h2>Conclusión</h2>
-<p>
-La tecnología es una herramienta fundamental para el desarrollo
-de la sociedad. Nos permite aprender, comunicarnos y resolver
-problemas. Sin embargo, debemos utilizarla con responsabilidad,
-proteger nuestra información y aprovechar sus beneficios
-de manera positiva.
-</p>
-</section>
+    <section>
+        <h2>Datos del estudiante</h2>
+        <p><strong>Estudiante:</strong> Jean Baruco</p>
+        <p><strong>Centro educativo:</strong> Instituto América</p>
+        <p><strong>Grado:</strong> 12° Humanidades</p>
+        <p><strong>Proyecto:</strong> Desarrollo de Sitio Web</p>
+    </section>
 
 </main>
 
 <footer>
-<p><strong>Proyecto Trimestral — Desarrollo de Sitio Web</strong></p>
-<p>Estudiante: Jean Baruco</p>
-<p>Instituto América | 12° Humanidades</p>
+    <p>Proyecto Trimestral - 2026</p>
+    <p>Instituto América | 12° Humanidades</p>
+    <p>Jean Baruco</p>
 </footer>
 
 </body>
